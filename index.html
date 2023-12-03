@@ -611,5 +611,117 @@
         </div>
       </div>
     </footer>
+
+    <!-- WINDOW BACKDROP-->
+
+    <div class="backdrop is_open">
+      <div class="modal_window">
+        <button class="modal_close_btn" type="button">
+          <svg
+            class="modal_close_icon_btn"
+            width="24"
+            height="24"
+            aria-label="close modal item"
+          >
+            <use href="./images/icons.svg#icon-close_black_"></use>
+          </svg>
+        </button>
+        <p class="review_form_description">
+          Leave your contacts and we will call you back
+        </p>
+        <form class="is-open">
+          <div class="review_form_field_wrapper">
+            <label class="review_form_field_label" for="user_first_name"
+              >Name</label
+            >
+            <div class="review_form_input_wrapper">
+              <input
+                class="review_form_input"
+                type="text"
+                name="user_name"
+                placeholder=""
+                id="user_name"
+                pattern="[a-zA-Z]+"
+                required
+              />
+              <svg
+                class="review_form_input_icon"
+                width="24"
+                height="24"
+                aria-label="icon user"
+              >
+                <use href="./images/icons.svg#icon-person_black"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="review_form_field_wrapper">
+            <label class="review_form_field_label" for="user_phone"
+              >Phone</label
+            >
+            <div class="review_form_input_wrapper">
+              <input
+                class="review_form_input"
+                type="tel"
+                name="contact_tel"
+                pattern="[0-9{15}]"
+                placeholder=""
+                id="user_tel"
+                required
+              />
+              <svg
+                class="review_form_input_icon"
+                width="24"
+                height="24"
+                aria-label="icon user"
+              >
+                <use href="./images/icons.svg#icon-phone_black"></use>
+              </svg>
+            </div>
+          </div>
+
+          <div class="review_form_field_wrapper">
+            <label class="review_form_field_label" for="user_email"
+              >Email
+            </label>
+            <div class="review_form_input_wrapper">
+              <input
+                class="review_form_input"
+                type="email"
+                name="email"
+                placeholder=""
+                id="user_email"
+                required
+              />
+              <svg
+                class="review_form_input_icon"
+                width="24"
+                height="24"
+                aria-label="icon user"
+              >
+                <use href="./images/icons.svg#icon-email_black"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="review_form_field_wrapper">
+            <label class="review_form_field_label" for="user_text"
+              >Comment</label
+            >
+            <textarea
+              class="review_form_content"
+              cols="36"
+              rows="12"
+              placeholder="Text input"
+              id="user_text"
+              required
+            ></textarea>
+          </div>
+          <div class="review_form_chekbox_wrapper">
+            <input class="review_form_chekbox" type="checkbox" />
+            <label class="review_form_chekbox_label" for=""></label>
+          </div>
+          <button class="review_form_submit_btn" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
   </body>
 </html>
