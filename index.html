@@ -613,7 +613,12 @@
           <p class="sub_title">Subscribe</p>
           <form class="sub_form">
             <label class="sub_label">
-              <input class="sub_input" type="email" placeholder="E-mail" />
+              <input
+                class="sub_input"
+                type="email"
+                placeholder="E-mail"
+                name="subscribe"
+              />
             </label>
             <button class="sub_btn" type="submit">
               Subscribe
@@ -643,6 +648,7 @@
         <p class="review_form_description">
           Leave your contacts and we will call you back
         </p>
+
         <form class="review_form">
           <div class="review_form_field_wrapper">
             <label class="review_form_field_label" for="user-name">Name</label>
@@ -659,7 +665,7 @@
               <svg
                 class="review_form_input_icon"
                 width="18"
-                height="18"
+                height="24"
                 aria-label="icon user"
               >
                 <use href="./images/icons.svg#icon-person_black"></use>
@@ -714,7 +720,7 @@
             </div>
           </div>
 
-          <div class="review_form_chekbox_wrapper">
+          <div class="review_form_checkbox_wrapper">
             <label class="review_form_field_label" for="user-comment"
               >Comment</label
             >
@@ -726,7 +732,8 @@
               required
             ></textarea>
           </div>
-          <div class="review_form_checkbox_wrapper">
+
+          <div class="i_accept">
             <input
               class="review_form_checkbox visually-hidden"
               type="checkbox"
@@ -749,6 +756,7 @@
               <a class="accent_color_checkbox">Privacy Policy</a></label
             >
           </div>
+
           <button class="review_form_submit_btn" type="submit">Send</button>
         </form>
       </div>
