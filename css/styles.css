@@ -524,6 +524,7 @@ body {
   align-content: center;
   justify-content: center;
   gap: 16px;
+  margin-right: 80px;
 }
 
 .social_media_footer {
@@ -600,8 +601,6 @@ body {
 .sub_form {
   display: flex;
   gap: 24px;
-  width: 132px;
-  margin-left: 80px;
   align-items: center;
 }
 
@@ -902,8 +901,9 @@ body {
   + .review_form_chekbox_label
   > .review_form_own_checkbox {
   background-color: #404bbf;
-  fill: #404bbf;
+  border-color: #404bbf;
   border: none;
+  fill: #f4f4fd;
 }
 
 .review_form_chekbox:focus
