@@ -774,6 +774,7 @@ body {
 
 .review_form_input_icon:focus {
   fill: #4d5ae5;
+  border-color: #4d5ae5;
 }
 
 .review_form_field_label {
@@ -901,7 +902,6 @@ body {
   + .review_form_chekbox_label
   > .review_form_own_checkbox {
   background-color: #404bbf;
-  border-color: #404bbf;
   border: none;
   fill: #f4f4fd;
 }
