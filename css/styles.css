@@ -788,7 +788,7 @@ body {
 }
 
 .review_form_input:focus + .review_form_input_icon {
-  stroke: #4d5ae5;
+  fill: #4d5ae5;
 }
 
 .review_form_content {
