@@ -902,14 +902,14 @@ body {
   + .review_form_chekbox_label
   > .review_form_own_checkbox {
   background-color: #404bbf;
-  border: none;
+  border-color: #404bbf;
   fill: #f4f4fd;
 }
 
 .review_form_chekbox:focus
   + .review_form_chekbox_label
   > .review_form_own_checkbox {
-  outline: 2px solid rgba(0, 0, 255, 0.5);
+  border: none;
 }
 
 .review_form_own_checkbox_icon {
