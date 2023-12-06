@@ -904,8 +904,8 @@ body {
   fill: #f4f4fd;
 }
 
-.review_form_chekbox:checked
-  + .review_form_chekbox_label
+.review_form_checkbox:focus
+  + .review_form_checkbox_label
   > .review_form_own_checkbox {
   border: none;
 }
