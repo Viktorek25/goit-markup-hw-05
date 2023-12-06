@@ -904,21 +904,12 @@ body {
   fill: #f4f4fd;
 }
 
-.review_form_chekbox:focus
-  + .review_form_chekbox_label
+.review_form_checkbox:checked
+  + .review_form_checkbox_label
   > .review_form_own_checkbox {
-  border: none;
-}
-
-.review_form_own_checkbox_icon {
+  background-color: #404bbf;
+  border-color: #404bbf;
   fill: #f4f4fd;
-  opacity: 0;
-}
-
-.review_form_chekbox:checked
-  + .review_form_chekbox_label
-  .review_form_own_checkbox_icon {
-  opacity: 1;
 }
 
 .accent_color_checkbox {
