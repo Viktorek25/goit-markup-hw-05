@@ -896,19 +896,19 @@ body {
   fill: transparent;
 }
 
-.review_form_chekbox:checked
-  + .review_form_chekbox_label
-  > .review_form_own_checkbox {
-  background-color: #404bbf;
-  border: none;
-  fill: #f4f4fd;
-}
-
 .review_form_checkbox:checked
   + .review_form_checkbox_label
   > .review_form_own_checkbox {
   background-color: #404bbf;
   border-color: #404bbf;
+  fill: #f4f4fd;
+}
+
+.review_form_chekbox:checked
+  + .review_form_chekbox_label
+  > .review_form_own_checkbox {
+  background-color: #404bbf;
+  border: none;
   fill: #f4f4fd;
 }
 
