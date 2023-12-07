@@ -645,6 +645,13 @@ body {
   border-radius: 4px;
 }
 
+.sub_btn:hover,
+.sub_btn:focus {
+  border-radius: 4px;
+  background: #404bbf;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
 .sub_svg {
   margin-left: 16px;
 }
@@ -803,7 +810,6 @@ body {
 }
 
 .review_form_checkbox_wrapper {
-  margin-top: 8px;
   margin-bottom: 16px;
 }
 
@@ -848,7 +854,6 @@ body {
   font-weight: 400;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  margin-bottom: 4px;
 }
 
 .form_checkbox {
@@ -878,16 +883,20 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.review_form_submit_btn:hover,
+.review_form_submit_btn:focus {
+  border-radius: 4px;
+  background: var(--OCEAN, #404bbf);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
 .review_form_own_checkbox {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   width: 16px;
   height: 16px;
-  stroke-width: 1px;
-  stroke: rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  cursor: pointer;
   margin-right: 8px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
